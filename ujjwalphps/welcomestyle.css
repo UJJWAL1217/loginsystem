@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.fullpage{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(partials/khushi.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+
+}
+.alert{
+    margin-top: 20%;
+    margin-left: 10%;
+
+    width: 80%;
+    text-align: center;
+    
+}
+.logoutbutton{
+    font-size: 150%;
+    /* background-color: rgb(196, 165, 12); */
+    margin-top: 2%;
+    /* margin-left: 18%; */
+    width:150px;
+    font-weight: 700;
+    background-color: #fbc5c5;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.alert-heading{
+    color:rgb(229, 169, 59);
+    font-family: serif;
+    font-size: 270%;
+    font-weight: 200;
+    padding-top: 2% ;
+    text-decoration:wavy;
+    text-shadow: 2px 0.5px rgb(174, 225, 225);
+}

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.fullpage{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.4)),url(partials/khushi.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+
+}
+.text-center{
+    color:rgb(229, 169, 59);
+    font-family: serif;
+    font-size: 270%;
+    font-weight: 200;
+    padding-top: 7% ;
+    text-decoration:wavy;
+    text-shadow: 2px 0.5px rgb(174, 225, 225);
+}
+.forms{
+    width: 100%;
+    padding: 50px 275px;
+    margin: 8px 0;
+    box-sizing:content-box;
+}
+.form-label{
+    color:wheat;
+    font-family: serif;
+    font-weight: 200;
+    font-size:160%;
+    padding-bottom: 2%;
+}
+.btn{
+    border-radius: 16px;
+    margin-top: 5%;
+    margin-left: 18%;
+    width:150px;
+    font-weight: 700;
+}
+.form-control {
+    border: 2px solid rgb(165, 135, 113);
+    border-radius: 4px;
+    transition : width 5s ease-in-out ;
+    background-color: rgb(0,0,0,0.6);
+}
+

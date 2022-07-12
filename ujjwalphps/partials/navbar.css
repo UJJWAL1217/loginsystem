@@ -1,0 +1,18 @@
+
+.container-fluid{
+    background-color:rgb(2, 36, 66,0.5);
+    width:100%;
+}
+.navbar-brand{
+    padding-right:20px;
+    padding-left: 20px;
+}
+.nav-item{
+    padding-right:20px;
+    padding-left: 20px;
+}
+.d-flex{
+    margin-top: 1.7%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+}
